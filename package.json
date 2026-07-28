@@ -1,0 +1,12 @@
+{
+  "name": "node-hono",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "@hono/node-server": "^2.0.12"
+  }
+}
